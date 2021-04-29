@@ -1,0 +1,16 @@
+markdown: kramdown
+kramdown:
+    highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  recipes:
+    output: true
+    permalink: /recipes/:path/

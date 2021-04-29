@@ -1,0 +1,45 @@
+.highlight, .highlight .w {
+  color: #303030;
+}
+
+.highlight .err {
+  color: #151515;
+  background-color: #ac4142;
+}
+
+// comments
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #708090;
+}
+
+// operators
+.highlight .o, .highlight .ow {
+  color: #9a6e3a;
+}
+
+// punctuation
+.highlight .p, .highlight .pi {
+  color: #999;
+}
+
+// keywords 
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv, .highlight .kd {
+  color: #07a ;
+}
+
+// TODO: maybe I can configure rouge to mark functions like .then() as nb
+// since .nx includes user defined functions and I can't differentiate w/ css
+// built ins, classes 
+.highlight .nb, .highlight .nc {
+  color: #dd4a68;
+}
+
+// strings, delimiters
+.highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #690;
+}
+
+// numbers, constants
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: #990055;
+}

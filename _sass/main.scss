@@ -1,0 +1,226 @@
+// ____________________________
+// Variables and Default Styles
+
+$font-color: #333;
+$background-color-page: #fff;
+$background-color-images: #f8f8f8; // for if transparent parts
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
+$font-size: 18px;
+$line-height: 1.6;
+
+$border-defaults: 1px solid #bbb;
+$border-radius: 2px;
+
+$code-blocks-font-color: #333;
+$code-blocks-background-color: #f2f2f2;
+$code-linenos-font-color: #999;
+$code-linenos-background-color: #e5e5e5;
+$code-font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+$code-font-size: .9375em; // (font-size - 1)/font-size
+
+// ________________
+// Colors and fonts
+body::-webkit-scrollbar {
+  max-width: .75em;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #333;
+}
+body::-webkit-scrollbar-track {
+  background-color: #888;
+}
+
+a:link, a:visited {
+  color: #000;
+}
+a:hover, a:active {
+  color: #aaa;
+}
+
+body {
+  color: $font-color;
+  background-color: $background-color-page;
+  
+  font-size: $font-size;
+  line-height: $line-height;
+  font-family: $font-family;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+// ____________________
+// Margins and Paddings
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, body, hr, dd {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 1em 0;
+}
+blockquote, figure {
+  margin: 3em 0;
+}
+div.highlighter-rouge {
+  margin: 0 0 3em 0;
+}
+hr {
+  margin: 2.5em auto;
+  height: 2px;
+  width: 96px;
+  border: 0;
+  background-color: $font-color;
+}
+ul, ol {
+  padding-left: 3.5em;
+  margin: 0 0 3em 0;
+}
+
+// ____________________________________________________________
+// Code -- Rouge generates the following markup:
+// 
+//   div.highlight                    . tbody
+//    └─ pre.highlight               .    ├─ tr
+//        └─ code                   .        ├─ td.rouge-gutter.gl <-- line numbers
+//            └─ table.rouge-table .         │   └─ pre.lineno
+//                                           │      └─ (text)
+//                                           │  
+//                                           └─ td.rouge-code      <-- code blocks
+//                                               └─ pre
+//                                                   └─ (text wrapped in spans)
+code {
+  font-family: $code-font-family;
+  font-size: $code-font-size;
+}
+div.highlighter-rouge {
+  overflow-x: auto;
+}
+.rouge-table { // the container
+  border-spacing: 0;
+  margin: 0 auto;
+  width: 100%;
+  display: table; // rouge uses <table> which we set to display as block in normal tables
+}
+.gl { // line numbers
+  background-color: $code-linenos-background-color;
+  color: $code-linenos-font-color;
+  border-right: $border-defaults;
+  text-align: right;
+  padding: 0 .7em 0 .8em !important;  // overwrite themes if they set padding
+}
+.rouge-code { // code blocks
+  background-color: $code-blocks-background-color;
+  color: $code-blocks-font-color;
+  padding: 1em !important;  // overwrite themes if they set padding
+}
+
+// ______
+// Images
+img {
+  background-color: $background-color-images;
+  border: $border-defaults;
+  border-radius: $border-radius;
+
+  max-width: 90%; // for  large images
+  padding: 1em;
+  display: block; // for auto to work
+  margin: 3em auto; // center the image
+} 
+
+// ______
+// Tables
+$table-light-background-color: #f2f2f2;
+$table-medium-background-color: #e5e5e5;
+$table-darker-background-color: #d8d8d8;
+
+div.table-wrapper {
+  overflow-x: auto;
+  margin: 3em 0; // space before and after table in post
+}
+table {
+  margin: 0 auto; // center table in its div
+  border: $border-defaults;
+  border-collapse: collapse;
+}
+td, th {
+  padding: .5em 1em;
+}
+th {
+  background-color: $table-darker-background-color;
+  border-bottom: $border-defaults;
+}
+tr {
+  background-color: $table-medium-background-color;
+  &:nth-child(even) {
+    background-color: $table-light-background-color;
+  }
+  &:hover {
+    background-color: $table-darker-background-color; // same as <th>
+  }
+}
+
+// _____________
+// Media Queries
+
+.wrapper {
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3em;
+  padding-top: 10em;
+}
+
+// smaller screens
+@media (max-width: 600px) { 
+  .wrapper {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    ul, ol {
+      padding-left: 2em;
+      margin: 0 0 3em 0;
+    }
+    hr {
+      width: 48px;
+    }
+  }
+}
+
+// _________________
+// Navigation Styles
+
+nav.navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  ul.navbar-nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+
+    li.nav-item {
+      display: block;
+
+      &:hover {
+        background-color: #181818;
+
+        a.nav-link span.link-text {
+          color: #ddd;
+        }
+      }
+
+      a.nav-link {
+        display: block;
+        text-decoration: none;
+        padding: 1em 2em;
+
+        span.link-text {
+          color: #aaa;
+        }
+      }
+    }
+  }
+}
