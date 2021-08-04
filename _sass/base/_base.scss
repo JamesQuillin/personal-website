@@ -1,0 +1,207 @@
+// ________________
+// Colors and fonts
+
+body::-webkit-scrollbar {
+  max-width: .75em;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $color-primary;
+}
+body::-webkit-scrollbar-track {
+  background-color: $color-secondary;
+}
+
+:link, :visited { 
+  color: $color-primary;
+}
+a:hover, a:active {
+  color: $color-secondary-light;
+}
+
+body {
+  color: $font-color;
+  background-color: $color-white;
+  
+  font-size: $font-size;
+  line-height: $line-height;
+  font-family: $font-family;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+// ____________________
+// Margins and Paddings
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, body, hr, dd {
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+p {
+  margin: 1em 0;
+}
+li > p { // for when Jekyll generates plain p tags around list item content for markdown where there are two newlines
+  margin: 0 0 1em 0;
+}
+li::marker {
+  font-size: 11px;
+  color: $color-primary;
+}
+blockquote, figure {
+  margin: 3em 0;
+}
+div.highlighter-rouge {
+  margin: 0 0 3em 0;
+}
+hr {
+  margin: 2.5em auto;
+  height: 2px;
+  width: 48px;
+  border: 0;
+  background-color: $color-primary;
+}
+@media (min-width: 800px) {
+  hr {
+    width: 96px;
+  }
+}
+ul, ol {
+  padding-left: 1em;
+  margin: 1em 0 3em 0;
+}
+@media (min-width: 800px) {
+  ul, ol {
+    padding-left: 3.5em;
+  }
+}
+
+// ____________________________________________________________
+// Code -- Rouge generates the following markup:
+// 
+//   div.highlight                    . tbody
+//    └─ pre.highlight               .    ├─ tr
+//        └─ code                   .        ├─ td.rouge-gutter.gl <-- line numbers
+//            └─ table.rouge-table .         │   └─ pre.lineno
+//                                           │      └─ (text)
+//                                           │  
+//                                           └─ td.rouge-code      <-- code blocks
+//                                               └─ pre
+//                                                   └─ (text wrapped in spans)
+code {
+  font-size: $code-font-size;
+}
+pre {
+  margin-bottom: 0;
+}
+code.highlighter-rouge {
+  background-color: #f2f2f2; // style inline code with a simple background
+  padding: 0 .5em;
+  white-space: nowrap;
+}
+li td.rouge-code {
+  // make code blocks look "slimmer" when in a list of items
+  padding: .25em 1em !important;  // overwrite themes if they set padding
+}
+li .highlighter-rouge {
+  // make code blocks look "slimmer" when in a list of items
+  margin-bottom: 1em;
+}
+div.highlighter-rouge {
+  overflow-x: auto;
+}
+.rouge-table { // the container
+  border-spacing: 0;
+  margin: 0 auto;
+  width: 100%;
+  display: table; // rouge uses <table> which we set to display as block in normal tables
+}
+.gl { // line numbers
+  background-color: #e5e5e5;
+  color: $color-secondary-dark;
+  border-right: $border-defaults;
+  text-align: right;
+  width: 1px; // forces the minimum width based on number of digits instead of letting it expand
+  padding: 0 .7em 0 .8em !important;  // overwrite themes if they set padding
+}
+.rouge-code { // code blocks
+  background-color: #f2f2f2;
+  color: $color-primary;
+  padding: 1em !important;  // overwrite themes if they set padding
+}
+
+// ______
+// Images
+
+img {
+  box-sizing: border-box;
+
+  background-color: #f8f8f8;
+  // box-shadow: 0 1rem 3rem rgba($color-primary, .1);
+
+  border: $border-defaults;
+  border-radius: $border-radius;
+
+  display: block; // for auto to work
+  margin: 3em auto; // center the image
+
+  max-width: 100%; // for  large images
+  max-height: 90vh; // for landscape phones
+  padding: .5em;
+}
+
+@media (min-width: 800px) {
+  img {
+    max-width: 75%; // for  large images
+    padding: 1em;
+  }
+}
+
+// ______
+// Tables
+$table-light-background-color: #f2f2f2;
+$table-medium-background-color: #e5e5e5;
+$table-darker-background-color: #d8d8d8;
+
+div.table-wrapper {
+  overflow-x: auto;
+  margin: 3em 0; // space before and after table in post
+}
+table {
+  margin: 0 auto; // center table in its div
+  border: $border-defaults;
+  border-collapse: collapse;
+}
+td, th {
+  padding: .5em 1em;
+}
+th {
+  background-color: $table-darker-background-color;
+  border-bottom: $border-defaults;
+}
+tr {
+  background-color: $table-medium-background-color;
+  &:nth-child(even) {
+    background-color: $table-light-background-color;
+  }
+  &:hover {
+    background-color: $table-darker-background-color; // same as <th>
+  }
+}
+
+// ____________
+// Site Wrapper
+
+.wrapper {
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+}
+
+// smaller screens
+@media (min-width: 800px) { 
+  .wrapper {
+    padding: 3em;
+    padding-top: 10em;
+  }
+}

@@ -1,24 +1,24 @@
 <nav class="navbar">
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a href="/articles" class="nav-link">
-        <span class="link-text">Articles</span>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a href="/projects" class="nav-link">
-        <span class="link-text">Projects</span>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a href="/recipes" class="nav-link">
-        <span class="link-text">Recipes</span>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a href="/about" class="nav-link">
-        <span class="link-text">About</span>
-      </a>
-    </li>
+  <ul class="navbar__list">
+    <li class="navbar__item"><a href="/projects" class="navbar__link">Projects</a></li>
+    <li class="navbar__item"><a href="/articles" class="navbar__link">Articles</a></li>
+    <li class="navbar__item"><a href="/recipes" class="navbar__link">Recipes</a></li>
+    <li class="navbar__item"><a href="/about" class="navbar__link">About</a></li>
   </ul>
 </nav>
+
+<div class="mobile-nav">
+  <input type="checkbox" class="mobile-nav__checkbox" id="navi-toggle">
+  <label for="navi-toggle" class="mobile-nav__button">
+      <span class="mobile-nav__icon">&nbsp;</span>
+  </label>
+  <div class="mobile-nav__background">&nbsp;</div>
+  <nav class="mobile-nav__nav">
+      <ul class="mobile-nav__list">
+          <li class="mobile-nav__item"><a href="/projects" class="mobile-nav__link">Projects</a></li>
+          <li class="mobile-nav__item"><a href="/articles" class="mobile-nav__link">Articles</a></li>
+          <li class="mobile-nav__item"><a href="/recipes" class="mobile-nav__link">Recipes</a></li>
+          <li class="mobile-nav__item"><a href="/about" class="mobile-nav__link">About</a></li>
+      </ul>
+  </nav>
+</div>

@@ -1,0 +1,27 @@
+$color-primary-dark: #181818;
+$color-primary: #333;
+$color-primary-light: #444;
+
+$color-secondary-dark: #505050;
+$color-secondary: #888;
+$color-secondary-light: #999;
+
+$color-black: #000;
+$color-white: #fff;
+
+$color-offwhite-darkest: #bbb;
+$color-offwhite-darker: #e5e5e5;
+$color-offwhite: #f8f8f8;
+
+$font-color: #333;
+// $font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
+// $font-family: sans-serif !default;
+$font-family: tahoma !default;
+$font-size: 18px;
+$line-height: 1.6;
+
+$border-defaults: 1px solid #bbb;
+$border-radius: 2px;
+
+// $code-font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+$code-font-size: .9375em; // (font-size - 1)/font-size

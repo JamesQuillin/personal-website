@@ -2,10 +2,33 @@
 layout: default
 title: Recipes
 ---
-<h2>Recipes</h2>
+<h1>Recipes</h1>
 
-<ul>
+<p>Here are some of my favorite recipes. They are designed to be extremely simple -- simple enough that I will actually cook them, since cooking can be a lot of work in the first place.</p>
+
+<p>Also, the prep times are based on how long it takes me to do it with average skills, since I'm not a professional chef or anything. If you are skilled or quick it can definitely be done faster.</p>
+
+<!-- <ul>
   {% for recipe in site.recipes %}
     <li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
   {% endfor %}
+</ul> -->
+
+<ul class="post-list">
+  {% for recipe in site.recipes %}
+    <li class="post">
+      <a class="post__heading" href="{{ recipe.url }}">
+        {{ recipe.title }}
+      </a>
+      <p class="post__description">
+        {{ recipe.description }}
+      </p>
+      <ul class="post__tags">
+        {% for tag in recipe.tags %}
+          <li class="tag">{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
 </ul>
+

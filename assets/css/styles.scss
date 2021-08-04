@@ -1,10 +1,12 @@
 ---
 ---
-@import "main";
 
-// Different themes for rouge syntax highlighting
-@import "_sass/syntax-themes/syntax-theme-custom";
+@import "abstracts/variables";
+@import "base/base";
+@import "layout/navigation";
+@import "components/post-list";
 
-// @import "_sass/syntax-themes/syntax-theme-base16";
-// @import "_sass/syntax-themes/syntax-theme-bw";
-// @import "_sass/syntax-themes/syntax-theme-github";
+@import "themes/custom-syntax-highlighter";
+// @import "themes/base16-syntax-highlighter";
+// @import "themes/bw-syntax-highlighter";
+// @import "themes/github-syntax-highlighter";

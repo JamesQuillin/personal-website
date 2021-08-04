@@ -2,10 +2,33 @@
 layout: default
 title: Projects
 ---
-<h2>Projects</h2>
+<h1>Projects</h1>
 
-<ul>
+<p>Thanks for checking out my projects! My current portfolio can be viewed <a href="https://jamesquillin.github.io" target="_blank">here</a> .</p>
+
+<p>Below are some more detailed writeups about some of the the most recent applications I have built — how they work and different design decisions that went into making them — as well as links to their repositories on Github.</p>
+
+<!-- <ul>
+  {% for article in site.articles %}
+    <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+  {% endfor %}
+</ul> -->
+
+<ul class="post-list">
   {% for project in site.projects %}
-    <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+    <li class="post">
+      <a class="post__heading" href="{{ project.url }}">
+        {{ project.title }}
+      </a>
+      <p class="post__description">
+        {{ project.description }}
+      </p>
+      <ul class="post__tags">
+        {% for tag in project.tags %}
+          <li class="tag">{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </li>
   {% endfor %}
 </ul>
+

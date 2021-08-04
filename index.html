@@ -2,10 +2,31 @@
 layout: default
 title: Posts
 ---
-<h2>Articles</h2>
+<h1>Articles</h1>
 
-<ul>
+<p>These posts are about anything programming related that I felt like writing about at some point or another, often for myself so that I could come back to it for a refresher if I wanted, but also in case anyone else might find some of the information useful.</p>
+
+<!-- <ul>
   {% for article in site.articles %}
     <li><a href="{{ article.url }}">{{ article.title }}</a></li>
   {% endfor %}
+</ul> -->
+
+<ul class="post-list">
+  {% for article in site.articles %}
+    <li class="post">
+      <a class="post__heading" href="{{ article.url }}">
+        {{ article.title }}
+      </a>
+      <p class="post__description">
+        {{ article.description }}
+      </p>
+      <ul class="post__tags">
+        {% for tag in article.tags %}
+          <li class="tag">{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
 </ul>
+
