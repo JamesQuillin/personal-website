@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Mushroom Risotto
-description: asdf
-tags: ["...", "..."]
+description: The easiest version of risotto I could figure out. Aside from the arborio rice you don't need any special ingredients or techniques.
+tags: ["Easy", "20-minute Prep", "Big Pan", "Frequent Stirring"]
 ---
 
 # Mushroom Risotto
@@ -16,9 +16,10 @@ tags: ["...", "..."]
 
 - heat oil on medium, cook onions until soft (3-5 minutes)
 - add rice, mushrooms, and part of the stock
-- stir constantly, adding a little stock at a time
-- season as you go or at the end to taste
-- when the rice is as soft as you like it finish with butter
+- stir frequently, adding a little stock at a time
+- use water if you run out of stock and the rice isn't done
+- season as you go and finish with butter
+- takes 15-20 minutes usually
 
 ## Images
 
@@ -39,7 +40,7 @@ tags: ["...", "..."]
 
 Don't skip the part about cooking the onions unless you like crunchy onions.
 
-Stir slowly at first because the pan will be really full until the mushrooms reduce in size.
+Stir slowly at first because the pan will be really full until the mushrooms reduce in size. You want to keep stirring throughout the whole cooking time because that's how you make sure the rice gets evenly cooked. You don't really have to stir 100% of the time, but it's not a recipe where you can leave it for 15 minutes and just stir it once or twice.
 
 Be careful when seasoning as you go because it's really easy to overseason it and have it be super salty or peppery when it has finished and cooled a little.
 

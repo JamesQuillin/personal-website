@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Macaroni and Cheese
-description: asdf
-tags: ["...", "..."]
+description: A quick and easy version of macaroni and cheese.
+tags: ["Easy", "3-minute Prep", "Two Pans"]
 ---
 
 # Macaroni and Cheese

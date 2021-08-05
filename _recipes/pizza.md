@@ -2,7 +2,7 @@
 layout: default
 title: Pizza
 description: The best compromise I have found between terms of effort and flavor for making pizza at home.
-tags: ["20 Minutes Prep", "Easy", "Requires Space", "Cold Pizza Is Good Change My Mind"]
+tags: ["20-minute Prep", "Easy", "Requires Space", "Cold Pizza Is Good Change My Mind"]
 ---
 
 # Pizza

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Mexican Rice
-description: asdf
-tags: ["...", "..."]
+description: As delicious as restaurant rice is I never made it before this because it always had so many different spices or other ingredients I didn't have around. This version is great because it gets you there with just the most common ingredients.
+tags: ["Easy", "5-minute Prep", "No Special Ingredients", "One Pot"]
 ---
 
 # Mexican Rice

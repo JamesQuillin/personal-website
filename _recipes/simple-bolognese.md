@@ -2,7 +2,7 @@
 layout: default
 title: Simple Bolognese
 description: Minimal and simple. The hardest part is shredding the carrots and onions.
-tags: ["10 Minutes Prep", "Can't Overcook", "Can't Burn", "One Pot", "No Special Ingredients"]
+tags: ["10-minute Prep", "Can't Overcook", "Can't Burn", "One Pot", "No Special Ingredients"]
 ---
 
 # Simple Bolognese

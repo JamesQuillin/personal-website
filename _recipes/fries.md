@@ -2,7 +2,7 @@
 layout: default
 title: French Fries
 description: Just basic french fries baked in the oven.
-tags: ["10 Minutes Prep", "Easy To Customize", "1 Pan & 1 Bowl"]
+tags: ["10-minute Prep", "Easy To Customize", "1 Pan & 1 Bowl"]
 ---
 
 # French Fries

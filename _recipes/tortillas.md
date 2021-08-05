@@ -2,7 +2,7 @@
 layout: default
 title: Tortillas
 description: Really simple tortillas. Best made in a larger batch or probably not worth it (at least for two people) since they are best when warm.
-tags: ["15 Minutes Prep", "Easy", "Requires Space", "1 pan"]
+tags: ["15-minute Prep", "Easy", "Requires Space", "1 pan"]
 ---
 
 # Tortillas

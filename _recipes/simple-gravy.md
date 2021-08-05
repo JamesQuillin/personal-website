@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Simple Gravy
-description: asdf
-tags: ["...", "..."]
+description: Good with toast or mashed potatoes and really easy to make. Also good if you're craving fast food but want to save some money.
+tags: ["One Pan", "No Prep"]
 ---
 
 # Simple Gravy

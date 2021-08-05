@@ -2,7 +2,7 @@
 layout: default
 title: Cilantro Lime Rice and Black Beans
 description: The rice is the hardest part, but a good rice cooker makes it much easier (I always use one). I sometimes just do plain rice. The beans are really easy.
-tags: ["10 Minutes Prep", "Easy With Rice Cooker"]
+tags: ["10-minute Prep", "Easy With Rice Cooker"]
 ---
 
 # Cilantro Lime Rice and Black Beans

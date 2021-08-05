@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Rhubarb Pie
-description: asdf
-tags: ["...", "..."]
+description: This is a good way to use a bunch of rhubarb if you have it, but it's a decent amount of work. Extra pies freeze really well too, and overall it is really really tasty.
+tags: ["Medium Difficulty", "20+ Minutes Prep", "Space Required"]
 ---
 
 # Rhubarb Pie

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Simple Cake
-description: asdf
-tags: ["...", "..."]
+description: Like many of my favorite recipes, this one has very few ingredients. It's really convenient and easy to customize as well.
+tags: ["Easy", "5-minute Prep", ""]
 ---
 
 # Simple Cake
@@ -43,7 +43,7 @@ tags: ["...", "..."]
 
 If you want to make frosting just beat together a ½ cup of butter with 2 cups of sugar. Then add any flavors and use a couple of teaspoons of milk to adjust the consistency. I'm too lazy to clean the mixer and bowl so I ususally just skip frosting but it's pretty easy to make so definitely try that if you want to. 
 
-The first time I made this I lined the bottom of mine with a piece of parchment paper and lightly butter the paper. It came out so well that I do that every time, but if I'm being honest I'm not sure if it's necessary or not. People recommend all sorts of variations on that.
+The first time I made this I lined the bottom of mine with a piece of parchment paper and lightly buttered the paper. It came out so well that I do that every time, but if I'm being honest I'm not sure if it's necessary or not. People recommend all sorts of variations on that.
 
 After about 20 minutes of baking I start poking it with a fork both to check how done it is and to open up a path for some of the steam to get out so that the inside can cook easier (at 20 minutes the inside will still be basically liquid).
 

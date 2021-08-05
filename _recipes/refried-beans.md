@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Refried Beans
-description: asdf
-tags: ["...", "..."]
+description: Like many other recipes I have here, this one starts with just a can of pinto beans and gets you to refried beans that taste much better than the premade ones.
+tags: ["Easy", "Fast", "One Pot", "2-minute Prep"]
 ---
 
 # Refried Beans

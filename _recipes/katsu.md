@@ -2,7 +2,7 @@
 layout: default
 title: Katsu
 description: Those Breaded cutlets you get at sushi places. Prepping whatever protein you want is the hardest part.
-tags: ["15 Minutes Prep", "Medium Difficulty", "Shallow Frying", "1 Pot & 3 Plates"]
+tags: ["15-minute Prep", "Medium Difficulty", "Shallow Frying", "1 Pot & 3 Plates"]
 ---
 
 # Katsu
