@@ -3,6 +3,7 @@ layout: default
 title: Miscellaneous CSS Techniques
 description: A collection of miscellaneous CSS tips and tricks I liked and wanted to keep track of.
 tags: HTML CSS
+published: false
 ---
 
 # Miscellaneous CSS Techniques

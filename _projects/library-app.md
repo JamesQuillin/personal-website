@@ -3,6 +3,7 @@ layout: default
 title: Library Mangagement System App
 description: A fictional checkout system that library employees can use to manage assets and patron information.
 tags: MVC C# .NET EF-Core
+published: false
 ---
 
 ## What this app is/does

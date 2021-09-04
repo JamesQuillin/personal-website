@@ -3,6 +3,7 @@ layout: default
 title: Japanese Vocab Viewer App
 description: Extract Japanese vocab from text (files, links, and copy-paste) and build word lists to study. This app can also export lists in a format that the popular Anki flashcard program can import.
 tags: HTML CSS JavaScript ElectronJS NodeJS
+published: false
 ---
 
 ## What this app is/does
