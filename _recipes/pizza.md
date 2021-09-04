@@ -29,7 +29,6 @@ tags: ["20-minute Prep", "Easy", "Requires Space", "Cold Pizza Is Good Change My
 ![pizza](/assets/images/recipes/pizza/pizza-2.jpg)
 ![pizza](/assets/images/recipes/pizza/pizza-3.jpg)
 ![pizza](/assets/images/recipes/pizza/pizza-4.jpg)
-![pizza](/assets/images/recipes/pizza/pizza-5.jpg)
 ![pizza](/assets/images/recipes/pizza/pizza-6.jpg)
 ![pizza](/assets/images/recipes/pizza/pizza-7.jpg)
 ![pizza](/assets/images/recipes/pizza/pizza-8.jpg)
