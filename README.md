@@ -8,4 +8,4 @@ If you want to try cloning and modifying it feel free. It is built with Jekyll s
 
 `bundle exec jekyll serve`
 
-and it should start running locally. 
+and it should start running locally. If you wanted to deploy a similar site, you can also check out [this post](https://jamesquillin.com/articles/simple-website-deployment/) which I wrote and which is on that site -- it details my favorite deployment strategy for simple apps and works great for all sorts of personal projects like this.
